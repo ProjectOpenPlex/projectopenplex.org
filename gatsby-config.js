@@ -50,6 +50,12 @@ module.exports = {
               'https://www.notion.so/simple10/b5c8cf03378443e282e16179e43a2a59?v=94d3ccf28b2a487086cd3efc1f3fae2f',
             cacheType: 'html',
           },
+          {
+            name: 'materials',
+            table:
+              'https://www.notion.so/simple10/4862f36f53d540538777e7306653758f?v=d7c9dc873bc944ac8a0a5fd05771d266',
+            cacheType: 'html',
+          },
         ],
       },
     },
