@@ -1,4 +1,10 @@
-# Luke Gatsby Starter
+# Project Open Plex
+
+This git repository is for the projectopenplex.org website.
+
+Content backend is in Notion and gets bundled and deployed to Netlify.
+
+# Based on Luke Gatsby Starter
 
 Kick off your project with this opinionated boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. This starter was inspired by [ueno-gatsby-starter](https://github.com/ueno-llc/ueno-gatsby-starter)
 
@@ -38,7 +44,7 @@ There are couple of things that are good to know about this starter, compared to
 
 We encourage TypeScript usage and have included basic linting.
 
--   Avoid `export default ...` - the only place you absolutely need to do this is in `./pages/*`. Rather `export const Module = ...` and `import { Module } from './file'` ([details](https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html))
+- Avoid `export default ...` - the only place you absolutely need to do this is in `./pages/*`. Rather `export const Module = ...` and `import { Module } from './file'` ([details](https://basarat.gitbooks.io/typescript/docs/tips/defaultIsBad.html))
 
 See the [TypeScript Handbook](https://basarat.gitbooks.io/typescript) for more tips and tricks
 
@@ -63,13 +69,13 @@ Component files and folders should be named using **kebab-case** and follow the 
 Font Awesome is home to more than 5,000 icons and are an easy way to get up and running with icons on your site. The `gatsby-browser.js` file is home to the root of the font awesome magic. `import` any icons you wish to use here, and append them to `library.add(...)`.
 
 ```tsx
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { fab } from "@fortawesome/free-brands-svg-icons"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fab)
 
-export default () => <FontAwesomeIcon icon={["fab", "github"]} />
+export default () => <FontAwesomeIcon icon={['fab', 'github']} />
 ```
 
 See the [Font Awesome React Docs](https://github.com/FortAwesome/react-fontawesome) for more info.
@@ -81,13 +87,13 @@ You can import SVG files as React components by placing them in the `./src/asset
 Usage:
 
 ```tsx
-import React from "react"
-import Logo from "assets/svg/logo.svg"
+import React from 'react'
+import Logo from 'assets/svg/logo.svg'
 
 export const Header = () => (
-	<header>
-		<Logo style={{ fill: "peru" }} />
-	</header>
+  <header>
+    <Logo style={{ fill: 'peru' }} />
+  </header>
 )
 ```
 
@@ -99,4 +105,4 @@ Dev mode is enabled by clicking `ctrl + ,`;
 
 ### TODO
 
--   example of pulling data from various data sources
+- example of pulling data from various data sources

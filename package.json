@@ -1,7 +1,7 @@
 {
-  "name": "luke-gatsby-starter",
-  "description": "An opinionated GatsbyJS starter using TypeScript and React String.",
-  "starter-name": "luke-gatsby-starter",
+  "name": "projectopenplex.org",
+  "description": "Website for projectopenplex.org",
+  "starter-name": "project-open-plex",
   "version": "1.1.1",
   "license": "MIT",
   "keywords": [
@@ -12,11 +12,11 @@
     "gatsby-starter"
   ],
   "contributors": [
-    "Luke Secomb <dev@lukesecomb.digital>"
+    "Joe Johnston <joe@projectopenplex.org>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukethacoder/luke-gatsby-starter"
+    "url": "https://github.com/ProjectOpenPlex/projectopenplex.org"
   },
   "scripts": {
     "dev": "gatsby develop",
@@ -33,7 +33,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.22.20",
+    "gatsby": "^2.23.0",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-config": "^1.0.7",
     "gatsby-plugin-emotion": "^4.1.16",
